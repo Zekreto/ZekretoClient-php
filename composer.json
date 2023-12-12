@@ -1,0 +1,26 @@
+{
+    "name": "zekreto/zekreto-client",
+    "description": "Client library for the zekreto encryption service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zekreto\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roderick Smith",
+            "email": "rantsh@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^2.9",
+        "phpunit/phpunit": "^9.6"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

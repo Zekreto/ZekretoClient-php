@@ -1,0 +1,8 @@
+.vscode
+.env*
+*.log
+
+vendor/
+
+# Exceptions
+!.env-example
